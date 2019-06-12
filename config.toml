@@ -1,4 +1,4 @@
-Title =  "积木盒博客"
+Title =  "积木の部落"
 LanguageCode = "zh-CN"
 BaseUrl = "https://bakakuma.moe/"
 Theme =  "next"
@@ -18,11 +18,11 @@ DefaultContentLanguage = "zh"
 
 [Params]
   Introduce = "Geek & Programmer"
-  Description = "蘭陵N散記 | 博客 | 软件 | 架构 | Java | Golang"
-  Keywords =  "蘭陵N散記,兰陵,独立,博客,程序员,架构师,个人,思考,读书,笔记,技术,分享,Golang"
-  Subtitle = "一指流沙，程序年华"
+  Description = "积木的博客"
+  Keywords =  "积木,博客,程序员,个人,笔记,技术,分享"
+  Subtitle = '"每个人都是积木盒中的玩具"'
   Imglogo = "/img/logo.png"
-  AuthorImg = "/img/author.jpg"
+  AuthorImg = "/img/author.png"
   DateFormat = "2006-01-02"
   YearFormat = "2006年"
   MonthFormat = "01-02"
@@ -30,12 +30,12 @@ DefaultContentLanguage = "zh"
   #QQStatsId = "58416275"
   RevolverMapId = "5b4f2ucxar6"
   Fancybox = true
+  copyright = "Wayne Zhao"
 
 [Author]
   Name = "积木盒"
 
 [Params.Share]
-  #DuoShuo = "lanlingzi"
   Disqus = "bakakuma"
   Baidu = false
 
@@ -67,7 +67,7 @@ DefaultContentLanguage = "zh"
 [[Menu.Main]]
   Name = "Archive"
   Pre = "archive"
-  URL = "/archive/"
+  URL = "/categories/Archive/"
   Weight = 6
 [[Menu.Main]]
   Name = "About"
@@ -78,9 +78,19 @@ DefaultContentLanguage = "zh"
 [[Params.Socials]]
   Name = "GitHub"
   Icon = "github"
-  URL = "https://github.com/xtfly/"
+  URL = "https://github.com/waynezhao12/"
 
 [[Params.Socials]]
-  Name = "知乎"
-  Icon = "globe"
-  URL = "https://www.zhihu.com/people/lan-ling-xin-yun"  
+  Name = "Twitter"
+  Icon = "twitter"
+  URL = "https://twitter.com/Bakakuma12"
+
+[[Params.Socials]]
+  Name = "Mastodon"
+  Icon = "mastodon"
+  URL = "https://nebula.moe/@Bakkumira"
+
+[[Params.Socials]]
+  Name = "Steam"
+  Icon = "steam"
+  URL = "https://steamcommunity.com/id/tsumikihako"

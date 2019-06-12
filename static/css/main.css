@@ -1519,7 +1519,7 @@ pre .javascript .function {
 }
 .site-state-item {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
   border-left: 1px solid #eee;
 }
 .site-state-item:first-child {
@@ -1606,6 +1606,7 @@ pre .javascript .function {
   border-bottom: 1px solid transparent;
   font-size: 14px;
   color: #555;
+  margin: 0 5px;
 }
 .sidebar-nav li:hover {
   color: #fc6423;
@@ -2580,8 +2581,8 @@ body {
 }
 .links-of-author-item {
   float: left;
-  margin: 5px 0 0;
-  width: 50%;
+  margin: 5px 30%;
+  /* width: 50%; */
 }
 .links-of-author-item a {
   box-sizing: border-box;
@@ -2647,3 +2648,11 @@ body {
     text-align: justify;
   }
 }
+.post-about a {
+  border-bottom: 0px;
+  color: #999;
+}
+.post-about a:hover {
+  color: #222;
+}
+
