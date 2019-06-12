@@ -24,10 +24,17 @@
       {{ range .Site.Menus.main }}
         <li class="menu-item {{ if $currentPage.IsMenuCurrent "main" . }}menu-item-active{{ end }}">
           <a href="{{ .URL }}" rel="section">
-              <i class="menu-item-icon fa fa-fw fa-{{ .Pre }}"></i> <br />{{ .Name }}
+            <i class="menu-item-icon fa fa-fw fa-{{ .Pre }}"></i> <br />{{ .Name }}
           </a>
         </li>
       {{ end }}
+      <!-- {{- range $name, $items := .Site.Taxonomies.categories }}
+      <li class="menu-item">
+        <a class="" href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}">
+          {{ $name | title | humanize }}
+        </a>
+      </li>
+      {{- end }} -->
       <li class="menu-item menu-item-search">
         <a href="javascript:;" class="popup-trigger"> <i class="menu-item-icon fa fa-search fa-fw"></i> <br /> {{ i18n "Search" }}</a>
       </li>

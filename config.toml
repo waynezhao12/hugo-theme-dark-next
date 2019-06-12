@@ -1,6 +1,6 @@
-Title =  "蘭陵N散記"
+Title =  "积木盒博客"
 LanguageCode = "zh-CN"
-BaseUrl = "http://lanlingzi.cn/"
+BaseUrl = "https://bakakuma.moe/"
 Theme =  "next"
 MetaDataFormat =  "yaml"
 CanonifyUrls =  true
@@ -17,7 +17,7 @@ pygmentsCodefencesGuessSyntax = true
 DefaultContentLanguage = "zh"
 
 [Params]
-  Introduce = "Programmer & Architect"
+  Introduce = "Geek & Programmer"
   Description = "蘭陵N散記 | 博客 | 软件 | 架构 | Java | Golang"
   Keywords =  "蘭陵N散記,兰陵,独立,博客,程序员,架构师,个人,思考,读书,笔记,技术,分享,Golang"
   Subtitle = "一指流沙，程序年华"
@@ -32,44 +32,45 @@ DefaultContentLanguage = "zh"
   Fancybox = true
 
 [Author]
-  Name = "兰陵子"
+  Name = "积木盒"
 
 [Params.Share]
   #DuoShuo = "lanlingzi"
-  Baidu = true
+  Disqus = "bakakuma"
+  Baidu = false
 
 [[Menu.Main]]
-  Name = "首页"
+  Name = "Home"
   Pre = "home"
   URL = "/"
   Weight = 1
 [[Menu.Main]]
-  Name = "技术"
+  Name = "Technique"
   Pre = "code"
-  URL = "/categories/技术/"
+  URL = "/categories/Technique/"
   Weight = 2
 [[Menu.Main]]
-  Name = "感想"
+  Name = "Reflection"
   Pre = "tint"
-  URL = "/categories/感想/"
+  URL = "/categories/Reflection/"
   Weight = 3
 [[Menu.Main]]
-  Name = "笔记"
+  Name = "Notes"
   Pre = "book"
-  URL = "/categories/笔记/"
+  URL = "/categories/Notes/"
   Weight = 4
 [[Menu.Main]]
-  Name = "杂记"
+  Name = "Routine"
   Pre = "leaf"
-  URL = "/categories/杂记/"
+  URL = "/categories/Routine/"
   Weight = 5
 [[Menu.Main]]
-  Name = "归档"
+  Name = "Archive"
   Pre = "archive"
-  URL = "/post/"
+  URL = "/archive/"
   Weight = 6
 [[Menu.Main]]
-  Name = "关于"
+  Name = "About"
   Pre = "user"
   URL = "/about/"
   Weight = 7
