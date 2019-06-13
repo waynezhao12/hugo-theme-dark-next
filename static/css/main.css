@@ -284,7 +284,7 @@ p {
 a {
   color: #C8C2B7;
   text-decoration: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #6C6B68;
   word-wrap: break-word;
 }
 a:hover {
@@ -508,6 +508,9 @@ pre,
   background: #2E2F2F;
   line-height: 1.6;
 }
+pre {
+  background: #2E2F2F !important;
+}
 pre,
 code {
   font-family: 'PT Mono', consolas, monospace;
@@ -523,6 +526,9 @@ pre code {
   color: #C8C2B7;
   background: none;
   text-shadow: none;
+}
+code span {
+  background-color: transparent !important;
 }
 .highlight {
   border-radius: 1px;
@@ -1113,7 +1119,7 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: auto;
   padding: 3px;
-  border: 1px solid #ddd;
+  border: 1px solid #6C6B68;
 }
 .posts-expand .fancybox img {
   margin: 0 auto;
@@ -1703,7 +1709,7 @@ pre .javascript .function {
 }
 
 .footer {
-  font-size: 14px;
+  font-size: 13px;
   color: #999;
 }
 .footer img {

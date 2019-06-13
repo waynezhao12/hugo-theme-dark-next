@@ -27,7 +27,7 @@
 - id: ReadMore
   translation: Read More
 - id: ReadingTime
-  translation: "{{ .WordCount }} words ~{{ .ReadingTime }}min"
+  translation: "{{ .WordCount }} words ~{{ .ReadingTime }} min"
 - id: Colon
   translation: ":"
 - id: Search
