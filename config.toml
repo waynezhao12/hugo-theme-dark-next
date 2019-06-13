@@ -32,7 +32,7 @@ DefaultContentLanguage = "zh"
   Fancybox = true
   copyright = "Wayne Zhao"
 
-[Author]
+[Params.Author]
   Name = "积木盒"
 
 [Params.Share]
@@ -67,7 +67,7 @@ DefaultContentLanguage = "zh"
 [[Menu.Main]]
   Name = "Archive"
   Pre = "archive"
-  URL = "/categories/Archive/"
+  URL = "/post/"
   Weight = 6
 [[Menu.Main]]
   Name = "About"
