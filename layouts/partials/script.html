@@ -1,13 +1,3 @@
-{{ if .Site.Params.BaiduStatsId }}<script>
-    var _hmt = _hmt || [];
-    (function() {
-    var hm = document.createElement("script");
-    hm.src = "//hm.baidu.com/hm.js?{{.Site.Params.BaiduStatsId}}";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-    })();
-</script>{{ end}}
-{{ if .Site.Params.QQStatsId}}<script type="text/javascript" src="http://tajs.qq.com/stats?sId={{.Site.Params.QQStatsId}}" charset="UTF-8"></script> {{end}}
 <script type="text/javascript">
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
@@ -31,7 +21,7 @@
 <script type="text/javascript" src="/js/post-details.js"></script>
 <script type="text/javascript" src="/js/toc.js"></script>
 {{ end }}
-<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/vendor/bootstrap/bootstrap.min.js"></script>
 {{ if .IsNode}}
 <script type="text/javascript" id="motion.page.archive">
   $('.archive-year').velocity('transition.slideLeftIn');

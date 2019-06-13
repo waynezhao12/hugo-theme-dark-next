@@ -6,6 +6,7 @@ html {
 }
 body {
   margin: 0;
+  position: relative;
 }
 article,
 aside,
@@ -39,6 +40,10 @@ template {
 }
 a {
   background-color: transparent;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
 }
 a:active,
 a:hover {
@@ -290,6 +295,7 @@ a {
 a:hover {
   color: #E5E0D8;
   border-bottom-color: #6C6B68;
+  text-decoration: transparent;
 }
 blockquote {
   margin: 0;
@@ -1351,6 +1357,14 @@ pre .javascript .function {
   margin-right: 10px;
   font-size: 13px;
   color: #666;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+}
+.posts-expand .post-tags a:hover {
+  color: #C8C2B7;
+  border-bottom-color: #6C6B68;
 }
 .post-nav {
   display: table;
@@ -1375,6 +1389,10 @@ pre .javascript .function {
   font-size: 14px;
   color: #C8C2B7;
   border-bottom: none;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
 }
 .post-nav-item a:hover {
   color: #E5E0D8;
@@ -1624,6 +1642,10 @@ pre .javascript .function {
   /* color: #555; */
   color: #C8C2B7;
   margin: 0 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
 }
 .sidebar-nav li:hover {
   color: #fc6423;
@@ -2674,10 +2696,22 @@ a.search-result {
 .post-about a {
   border-bottom: 0px;
   color: #999;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
 }
 .post-about a:hover {
   color: #C8C2B7;
 }
 * {
   scrollbar-color: #353536 #272928;
+}
+.nav-link{
+  display: inline;
+  padding: 0;
+}
+.nav-pills .nav-link.active {
+	color: #fc6423;
+	background: transparent;
 }
