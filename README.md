@@ -1,16 +1,16 @@
-# NexT For Hugo
+# NexT Dark Theme For Hugo
 
-A Hugo theme port from [NexT](https://github.com/iissnan/hexo-theme-next).
+A Hugo theme port from [NexT For Hugo](https://github.com/xtfly/hugo-theme-next).
 
 ## Discription
 
 NexT is a simple and animated theme. I port it from Hexo to [Hugo](https://gohugo.io/) and used in my blog site.
 
-[Preview online](http://www.lanlingzi.cn)
+[Preview online](https://blog.bakakuma.moe/)
 
 ## Usage
 
-1. download theme file: `git clone https://github.com/xtfly/hugo-theme-next.git next`
+1. download theme file: `git clone https://github.com/waynezhao12/hugo-theme-dark-next.git next`
 
 2. copy `next` directory to `themes` directory in your hugo site
 
@@ -54,13 +54,7 @@ NexT is a simple and animated theme. I port it from Hexo to [Hugo](https://gohug
 
 ## Todo
 
-- [x] Sidebar menu
-- [x] Sidebar links
-- [x] Auto toc display
-- [x] Support i18n
-- [x] Local Search
-- [x] Syntax Highlighter (thanks to [xulz](https://github.com/xtfly/hugo-theme-next/pull/6))
-- [x] Support Latex 
+- [x] Implement Scrollspy on toc
 
 ## License
 The [MIT License](LICENSE).
