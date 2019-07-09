@@ -66,6 +66,7 @@ h1 {
 mark {
   background: #ff0;
   color: #000;
+  padding: 0;
 }
 small {
   font-size: 80%;
